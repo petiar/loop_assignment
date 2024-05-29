@@ -1,0 +1,8 @@
+services:
+  loop_events.artists_data:
+    class: Drupal\loop_events\ArtistsData
+    arguments: ['@config.factory', '@cache.discovery']
+  serializer.normalizer.field.artist:
+    class: Drupal\loop_events\Normalizer\ArtistFieldNormalizer
+    tags:
+      - { name: normalizer }

@@ -1,0 +1,7 @@
+name: 'Loop Events'
+type: module
+description: 'Custom module for the Events challenge'
+package: Loop
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:field

@@ -1,0 +1,21 @@
+name: Events Challenge
+type: theme
+base theme: olivero
+description: Custom theme for the Events Challenge.
+package: Loop
+core_version_requirement: ^10
+libraries:
+  - events_challenge/global
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'

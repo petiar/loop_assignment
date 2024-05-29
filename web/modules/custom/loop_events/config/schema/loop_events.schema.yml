@@ -1,0 +1,17 @@
+field.value.loop_events_artist:
+  type: mapping
+  label: Default value
+  mapping:
+    value:
+      type: label
+      label: Value
+field.widget.settings.link_target_widget:
+  type: field.widget.settings.link_default
+  label: 'URL target'
+  mapping:
+    available_targets:
+      type: sequence
+      label: 'Targets list'
+      sequence:
+        type: string
+        label: 'Target'
