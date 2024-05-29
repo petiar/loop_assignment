@@ -1,0 +1,22 @@
+uuid: f77a45cb-5caa-4342-bbda-170fdd3d3a95
+langcode: en-gb
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - events_challenge
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: events_challenge_powered
+theme: events_challenge
+region: header
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en-gb
+uuid: ec6a8407-55d2-4628-85fc-5649c92f99cb
+name: 'Loop Demo'
+mail: petiar@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /overview
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en-gb

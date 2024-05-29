@@ -1,0 +1,22 @@
+uuid: 9a342ddc-2b36-489b-866c-b124e7aa0316
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - events_challenge
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: events_challenge_secondary_local_tasks
+theme: events_challenge
+region: highlighted
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

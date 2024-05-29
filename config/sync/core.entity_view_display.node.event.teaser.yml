@@ -1,0 +1,47 @@
+uuid: 94157fb5-f94f-4764-93dd-d9c5aeac81a1
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event.field_artists
+    - field.field.node.event.field_date
+    - field.field.node.event.field_description
+    - field.field.node.event.field_event_website
+    - field.field.node.event.field_image
+    - field.field.node.event.field_location
+    - field.field.node.event.field_organizer
+    - image.style.medium
+    - node.type.event
+  module:
+    - image
+    - user
+id: node.event.teaser
+targetEntityType: node
+bundle: event
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_artists: true
+  field_date: true
+  field_description: true
+  field_event_website: true
+  field_location: true
+  field_organizer: true
+  langcode: true

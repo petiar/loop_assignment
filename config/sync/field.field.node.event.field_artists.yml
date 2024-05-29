@@ -1,0 +1,21 @@
+uuid: 15dc5b1e-d421-4ca7-83f6-ee1f5cb6cec6
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_artists
+    - node.type.event
+  module:
+    - loop_events
+id: node.event.field_artists
+field_name: field_artists
+entity_type: node
+bundle: event
+label: Artists
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: artist

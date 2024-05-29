@@ -1,0 +1,23 @@
+uuid: 03526d2b-6ccd-4d99-b14c-d550733067cf
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - events_challenge
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: events_challenge_search_form_narrow
+theme: events_challenge
+region: primary_menu
+weight: -8
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

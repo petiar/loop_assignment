@@ -1,0 +1,22 @@
+uuid: 3fab7809-84f1-4257-9f74-af6f1e48d110
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - events_challenge
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: events_challenge_content
+theme: events_challenge
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
